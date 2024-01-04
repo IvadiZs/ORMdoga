@@ -42,10 +42,5 @@ namespace ORMdoga.Controllers {
         public async Task<Eloado> Delete(Guid id) {
             return await eloadoInterface.DeleteById(id);
         }
-
-        [HttpGet("/byUser/{id}")]
-        public async Task<IEnumerable<Eloado>> GetUserPosts(Guid id) {
-            return await eloadoInterface.GetEloadoSzam(id);
-        }
     }
 }

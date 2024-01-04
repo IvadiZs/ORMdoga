@@ -6,7 +6,7 @@ namespace ORMdoga.Repositories {
 
         private readonly ZeneDBContext dbContext;
 
-        public SzamService(ZeneDBContext dBContext) {
+        public SzamService(ZeneDBContext dbContext) {
             this.dbContext = dbContext;
         }
 
@@ -34,7 +34,8 @@ namespace ORMdoga.Repositories {
                 id = Guid.NewGuid(),
                 SzamCim = createDTO.SzamCim,
                 SzamMegjelenes = createDTO.SzamMegjelenes,
-                CreatedTime = DateTime.UtcNow
+                CreatedTime = DateTime.UtcNow,
+                EloadoId = createDTO.EloadoId
             };
 
             await dbContext.Szam.AddAsync(szam);

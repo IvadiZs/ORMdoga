@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ORMdoga.Models;
 
@@ -10,9 +11,11 @@ using ORMdoga.Models;
 namespace ORMdoga.Migrations
 {
     [DbContext(typeof(ZeneDBContext))]
-    partial class ZeneDBContextModelSnapshot : ModelSnapshot
+    [Migration("20240104081709_ThirdMigration")]
+    partial class ThirdMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

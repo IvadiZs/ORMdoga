@@ -7,7 +7,7 @@ namespace ORMdoga.Repositories {
 
         private readonly ZeneDBContext dbContext;
 
-        public EloadoService(ZeneDBContext dBContext) {
+        public EloadoService(ZeneDBContext dbContext) {
             this.dbContext = dbContext;
         }
 
