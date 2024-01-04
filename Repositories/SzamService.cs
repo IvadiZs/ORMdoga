@@ -67,5 +67,14 @@ namespace ORMdoga.Repositories {
 
             return szam;
         }
+
+        // GetEloadoSzam
+
+        public async Task<IEnumerable<Szam>> GetEloadoSzam(Guid id) {
+
+            var szamList = dbContext.Szam.Where(x => x.EloadoId == id).ToList();
+
+            return szamList;
+        }
     }
 }

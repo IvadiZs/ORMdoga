@@ -13,5 +13,7 @@ namespace ORMdoga.Repositories {
         Task<Szam> Put(Guid id, UpdateSzamDTO updateDTO);
 
         Task<Szam> DeleteById(Guid id);
+
+        Task<IEnumerable<Szam>> GetEloadoSzam(Guid id);
     }
 }

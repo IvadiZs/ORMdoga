@@ -20,11 +20,7 @@ namespace ORMdoga.Models {
         [Column(TypeName = "varchar(50)")]
         public string ZeneFajta { get; set; }
 
-        public DateTime CreatedTime { get; set; }
-
-        public Guid SzamId { get; set; }
-
-        public Szam Szam { get; set; }  
+        public DateTime CreatedTime { get; set; } 
 
     }
 }

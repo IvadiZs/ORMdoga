@@ -36,7 +36,6 @@ namespace ORMdoga.Repositories {
                 EloadoNev = createDTO.EloadoNev,
                 EloadoNemzetiseg = createDTO.EloadtoNemzetiseg,
                 ZeneFajta = createDTO.Zenefajta,
-                SzamId = createDTO.SzamId,
                 CreatedTime = DateTime.UtcNow
             };
 
@@ -70,15 +69,6 @@ namespace ORMdoga.Repositories {
             await dbContext.SaveChangesAsync();
 
             return eloado;
-        }
-
-        // GetEloadoSzam
-
-        public async Task<IEnumerable<Eloado>> GetEloadoSzam(Guid id) {
-
-            var szamList = dbContext.Eloado.Where(x => x.SzamId == id).ToList();
-
-            return szamList;
         }
     }
 }

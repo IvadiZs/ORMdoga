@@ -18,5 +18,9 @@ namespace ORMdoga.Models {
 
         public DateTime CreatedTime { get; set; }
 
+        public Eloado Eloado { get; set; }
+
+        public Guid EloadoId { get; set; }
+
     }
 }

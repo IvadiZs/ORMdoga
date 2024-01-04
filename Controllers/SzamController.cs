@@ -42,5 +42,10 @@ namespace ORMdoga.Controllers {
         public async Task<Szam> Delete(Guid id) {
             return await szamInterface.DeleteById(id);
         }
+
+        [HttpGet("/byUser/{id}")]
+        public async Task<IEnumerable<Szam>> GetUserPosts(Guid id) {
+            return await szamInterface.GetEloadoSzam(id);
+        }
     }
 }
