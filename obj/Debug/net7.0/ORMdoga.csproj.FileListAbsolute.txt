@@ -1,0 +1,7 @@
+C:\Users\izsombor\Documents\Minden cucc\Prog\ORMdoga\obj\Debug\net7.0\ORMdoga.csproj.AssemblyReference.cache
+C:\Users\izsombor\Documents\Minden cucc\Prog\ORMdoga\obj\Debug\net7.0\ORMdoga.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\izsombor\Documents\Minden cucc\Prog\ORMdoga\obj\Debug\net7.0\ORMdoga.AssemblyInfoInputs.cache
+C:\Users\izsombor\Documents\Minden cucc\Prog\ORMdoga\obj\Debug\net7.0\ORMdoga.AssemblyInfo.cs
+C:\Users\izsombor\Documents\Minden cucc\Prog\ORMdoga\obj\Debug\net7.0\ORMdoga.csproj.CoreCompileInputs.cache
+C:\Users\izsombor\Documents\Minden cucc\Prog\ORMdoga\obj\Debug\net7.0\ORMdoga.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\izsombor\Documents\Minden cucc\Prog\ORMdoga\obj\Debug\net7.0\ORMdoga.MvcApplicationPartsAssemblyInfo.cache
