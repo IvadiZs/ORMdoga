@@ -5,7 +5,7 @@ namespace ORMdoga {
     public static class Extensions {
 
         public static EloadoDTO AsDTO(this Eloado eloado) {
-            return new(eloado.id, eloado.EloadoNev, eloado.EloadoNemzetiseg, eloado.ZeneFajta, eloado.CreatedTime   );
+            return new(eloado.id, eloado.EloadoNev, eloado.EloadoNemzetiseg, eloado.ZeneFajta, eloado.CreatedTime, eloado.SzamId);
         }
 
         public static SzamDTO AsDTO(this Szam szam) {

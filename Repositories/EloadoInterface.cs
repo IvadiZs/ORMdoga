@@ -14,6 +14,6 @@ namespace ORMdoga.Repositories {
 
         Task<Eloado> DeleteById(Guid id);
 
-        Task<IEnumerable<Szam>> GetEloadoSzam(Guid id);
+        Task<IEnumerable<Eloado>> GetEloadoSzam(Guid id);
     }
 }

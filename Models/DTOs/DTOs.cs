@@ -1,7 +1,7 @@
 ﻿namespace ORMdoga.Models.DTOs {
-    public record EloadoDTO(Guid id, string EloadoNev, string EloadoNemzetiseg, string ZeneFajta, DateTime CreatedTime);
+    public record EloadoDTO(Guid id, string EloadoNev, string EloadoNemzetiseg, string ZeneFajta, DateTime CreatedTime, Guid SzamId);
 
-    public record CreatedEloadoDTO(string EloadoNev, string EloadtoNemzetiseg, string Zenefajta);
+    public record CreatedEloadoDTO(string EloadoNev, string EloadtoNemzetiseg, string Zenefajta, Guid SzamId);
 
     public record UpdateEloadoDTO(string EloadoNev, string EloadoNemzetiseg, string ZeneFajta);
 
