@@ -1,5 +1,6 @@
 
 using ORMdoga.Models;
+using ORMdoga.Repositories;
 
 namespace ORMdoga {
     public class Program {
@@ -7,7 +8,8 @@ namespace ORMdoga {
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddDbContext<ZeneDBContext>();
-
+            builder.Services.AddScoped<IEloadoInterface, EloadoService>();
+            builder.Services.AddScoped<ISzamInterface, SzamService>();
 
             // Add services to the container.
 
